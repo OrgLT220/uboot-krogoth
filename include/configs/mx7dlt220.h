@@ -35,7 +35,7 @@
 
 #define CONFIG_PHYLIB
 /* #define CONFIG_PHY_BROADCOM */
-#define CONFIG_ATHEROS
+#define CONFIG_PHY_ATHEROS
 
 #define CONFIG_FEC_ENET_DEV 0
 
@@ -47,7 +47,7 @@
 #define CONFIG_FEC_MXC_PHYADDR          0x5
 #endif
 
-/* #define CONFIG_FEC_MXC_MDIO_BASE	ENET_IPS_BASE_ADDR */
+#define CONFIG_FEC_MXC_MDIO_BASE	ENET_IPS_BASE_ADDR
 
 /* PMIC */
 #define CONFIG_POWER
